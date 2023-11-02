@@ -1,0 +1,155 @@
+body
+{ 
+    display: flex;
+    width: 612px;
+    height: 818px; 
+    font-family: 'Arial', sans-serif;
+    justify-content: center; 
+    margin: auto; 
+    background-color: grey;
+}
+
+#bandaEsquerra,
+#bandaDreta {
+    background-color: white; /* Fons del contingut */ /* Espai al voltant del contingut */
+}
+#bandaEsquerra
+{
+    flex: 0.8; 
+    background-color: rgb(94, 152, 189);
+    height: 818px;
+    align-items: center;
+    margin-right: 0;
+}
+#presentacio h1
+{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+}
+#presentacio h2
+{
+    text-align: center;
+    font-weight: 10;
+    font-size: 15px;
+}
+#presentacio img {
+    margin-top: 40px;  
+    margin-left: 64px;
+    width: 115px; 
+    height: auto; /* Manté l'escala original proporcionada per l'altura automàtica */
+}
+#contacte
+{
+    background-color: white;
+    height: 400px;
+    margin: 25px; 
+    padding-left: 15px;
+    padding-top: 1px;
+}
+#contacte h1
+{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+#contacte h2
+{
+    font-size: 15px;
+    font-weight: 15;
+    margin-top: 25px;
+}
+#contacte p
+{
+    font-size: 15px;
+    font-weight: 10;
+}
+#contacte ul
+{
+    margin-top: 0;
+    font-size: 12.5px;
+}
+#adreça p
+{
+    font-size: 10px;   
+}
+#adreça a
+{
+    color: black;
+}
+#adreça img
+{
+    width: 35px; /* Amplada màxima de 200 píxels */
+    height: auto;
+    margin-right: 10px;
+}
+#adreça
+{
+    display: flex;
+    align-items: center;
+}
+.info
+{
+    display: flex;
+    align-items: center;
+}
+.info a
+{
+    color: black;
+}
+.info img 
+{
+    width: 35px; /* Amplada màxima de 200 píxels */
+    height: auto;
+    margin-right: 30px;/* Espai entre la imatge i el text */
+}
+
+#bandaDreta
+{
+    flex: 1;
+    margin-left: 0; 
+    padding-left: 20px; 
+    padding-right: 20px;
+    text-align: justify;
+    font-size: 12.5px;
+    
+}
+#bandaDreta h1
+{
+    text-align: center;
+    font-family: 'Calibri Light', sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+
+}
+#Llista
+{
+    display:flex;
+    text-align: left;
+
+}
+
+#habilitatsAptituds img
+{
+    max-width: 300px; /* Amplada màxima de 200 píxels */
+    height: auto;
+
+}
+ul 
+{
+    padding-inline-start:0;/* Això elimina el sagnat predeterminat de les llistes */
+    margin-left: 10px;
+}
+ul .subllista
+{
+    padding-left: 35px;
+}
+
+  
+    
+    
+
+
+
