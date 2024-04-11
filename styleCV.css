@@ -8,6 +8,17 @@ body
     margin: auto; 
     background-color: grey;
 }
+@media only screen and (max-width: 600px) {
+    /* Afegir estils CSS aquí per a pantalles més petites */
+    body {
+        width: auto; /* Permet que el cos s'ajusti a l'amplada de la pantalla */
+        height: auto; /* Permet que el cos s'ajusti a l'altura de la pantalla */
+    }
+    #bandaEsquerra, #bandaDreta {
+        flex: 1; /* Fes que les bandes ocupin tot l'espai disponible */
+    }
+}
+
 
 #bandaEsquerra,
 #bandaDreta {
